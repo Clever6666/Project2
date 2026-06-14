@@ -1,0 +1,22 @@
+{
+  "model": "residual",
+  "output_name": "residual",
+  "activation": "relu",
+  "optimizer": "adamw",
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0005,
+  "momentum": 0.0,
+  "trainable_parameters": 5915658,
+  "epochs_completed": 50,
+  "best_epoch": 44,
+  "best_val_acc": 0.9154,
+  "test_loss": 0.3894457279205322,
+  "test_acc": 0.9071,
+  "total_train_time_sec": 317.1369809061289,
+  "avg_epoch_time_sec": 6.342739618122578,
+  "test_time_sec": 0.622139222919941,
+  "best_checkpoint": "/mnt/workspace/Cifar10_nn_experiment/checkpoints/residual/best.pth",
+  "history_csv": "/mnt/workspace/Cifar10_nn_experiment/results/residual/history.csv",
+  "validation_curves": "/mnt/workspace/Cifar10_nn_experiment/results/residual/validation_curves.png",
+  "test_confusion_matrix": "/mnt/workspace/Cifar10_nn_experiment/results/residual/test_confusion_matrix.png"
+}

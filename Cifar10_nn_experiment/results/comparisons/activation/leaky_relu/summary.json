@@ -1,0 +1,22 @@
+{
+  "model": "cnn4",
+  "output_name": "activation/leaky_relu",
+  "activation": "leaky_relu",
+  "optimizer": "adamw",
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0005,
+  "momentum": 0.0,
+  "trainable_parameters": 5743434,
+  "epochs_completed": 50,
+  "best_epoch": 50,
+  "best_val_acc": 0.9206,
+  "test_loss": 0.4306650480270386,
+  "test_acc": 0.9077,
+  "total_train_time_sec": 311.88719602674246,
+  "avg_epoch_time_sec": 6.237743920534849,
+  "test_time_sec": 0.6144766472280025,
+  "best_checkpoint": "/mnt/workspace/Cifar10_nn_experiment/checkpoints/task1_comparisons/activation/leaky_relu/best.pth",
+  "history_csv": "/mnt/workspace/Cifar10_nn_experiment/results/task1_comparisons/activation/leaky_relu/history.csv",
+  "validation_curves": "/mnt/workspace/Cifar10_nn_experiment/results/task1_comparisons/activation/leaky_relu/validation_curves.png",
+  "test_confusion_matrix": "/mnt/workspace/Cifar10_nn_experiment/results/task1_comparisons/activation/leaky_relu/test_confusion_matrix.png"
+}

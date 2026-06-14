@@ -1,0 +1,22 @@
+{
+  "model": "cnn3",
+  "output_name": "depth/cnn3",
+  "activation": "relu",
+  "optimizer": "adamw",
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0005,
+  "momentum": 0.0,
+  "trainable_parameters": 3249994,
+  "epochs_completed": 50,
+  "best_epoch": 40,
+  "best_val_acc": 0.908,
+  "test_loss": 0.3773767793893814,
+  "test_acc": 0.8928,
+  "total_train_time_sec": 261.15626921504736,
+  "avg_epoch_time_sec": 5.223125384300947,
+  "test_time_sec": 0.6289603412151337,
+  "best_checkpoint": "/mnt/workspace/Cifar10_nn_experiment/checkpoints/task1_comparisons/depth/cnn3/best.pth",
+  "history_csv": "/mnt/workspace/Cifar10_nn_experiment/results/task1_comparisons/depth/cnn3/history.csv",
+  "validation_curves": "/mnt/workspace/Cifar10_nn_experiment/results/task1_comparisons/depth/cnn3/validation_curves.png",
+  "test_confusion_matrix": "/mnt/workspace/Cifar10_nn_experiment/results/task1_comparisons/depth/cnn3/test_confusion_matrix.png"
+}
